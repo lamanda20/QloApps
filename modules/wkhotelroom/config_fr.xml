@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>wkhotelroom</name>
+	<displayName><![CDATA[Afficher les chambres d&#039;h&ocirc;tel]]></displayName>
+	<version><![CDATA[1.2.0]]></version>
+	<description><![CDATA[Gr&acirc;ce &agrave; ce module, vous pouvez afficher vos chambres d&#039;h&ocirc;tel sur la page d&#039;accueil.]]></description>
+	<author><![CDATA[Webkul]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

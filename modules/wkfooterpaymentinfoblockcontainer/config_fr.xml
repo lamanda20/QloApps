@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>wkfooterpaymentinfoblockcontainer</name>
+	<displayName><![CDATA[Affichage sur le bloc h&ocirc;telier et le bloc de paiement dans le pied de page]]></displayName>
+	<version><![CDATA[1.0.2]]></version>
+	<description><![CDATA[Contient de br&egrave;ves informations sur l&#039;h&ocirc;tel et la passerelle de paiement accept&eacute;e par le site.]]></description>
+	<author><![CDATA[Webkul]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[]]></confirmUninstall>
+	<is_configurable>0</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

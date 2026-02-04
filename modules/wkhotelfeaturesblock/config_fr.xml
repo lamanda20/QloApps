@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>wkhotelfeaturesblock</name>
+	<displayName><![CDATA[Caract&eacute;ristiques de l&#039;h&ocirc;tel]]></displayName>
+	<version><![CDATA[2.0.8]]></version>
+	<description><![CDATA[Affichez les &eacute;quipements de l&#039;h&ocirc;tel sur la page d&#039;accueil &agrave; l&#039;aide de ce module.]]></description>
+	<author><![CDATA[Webkul]]></author>
+	<tab><![CDATA[front_office_features]]></tab>
+	<confirmUninstall><![CDATA[]]></confirmUninstall>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

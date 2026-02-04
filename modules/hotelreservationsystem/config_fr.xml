@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>hotelreservationsystem</name>
+	<displayName><![CDATA[Syst&egrave;me de r&eacute;servation et de r&eacute;servation d&#039;h&ocirc;tel]]></displayName>
+	<version><![CDATA[1.7.0]]></version>
+	<description><![CDATA[Ce module est l&#039;&eacute;pine dorsale de QloApps et g&egrave;re tous les processus de r&eacute;servation sur votre site Web.]]></description>
+	<author><![CDATA[Webkul]]></author>
+	<tab><![CDATA[administration]]></tab>
+	<confirmUninstall><![CDATA[Ce module ne doit en aucun cas être désinstallé. Cela pourrait entraîner des résultats indésirables.]]></confirmUninstall>
+	<is_configurable>0</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>dashavailability</name>
+	<displayName><![CDATA[Disponibilit&eacute; du tableau de bord]]></displayName>
+	<version><![CDATA[1.0.3]]></version>
+	<description><![CDATA[Ajoute un bloc avec une repr&eacute;sentation graphique de la disponibilit&eacute; de la chambre de votre h&ocirc;tel.]]></description>
+	<author><![CDATA[Webkul]]></author>
+	<tab><![CDATA[dashboard]]></tab>
+	<confirmUninstall><![CDATA[Êtes-vous sûr de vouloir désinstaller ?]]></confirmUninstall>
+	<is_configurable>0</is_configurable>
+	<need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

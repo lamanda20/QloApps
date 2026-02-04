@@ -1,0 +1,42 @@
+services:
+  db:
+    image: mysql:8.0
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_DATABASE: qloapps
+      MYSQL_USER: qloapps
+      MYSQL_PASSWORD: qloapps_pass
+      MYSQL_ROOT_PASSWORD: root_pass
+    volumes:
+      - qloapps_db:/var/lib/mysql
+    restart: unless-stopped
+
+  web:
+    build: .
+    ports:
+      - "80:80"
+    volumes:
+      - ./:/var/www/html
+    environment:
+      DB_HOST: db
+      DB_NAME: qloapps
+      DB_USER: qloapps
+      DB_PASS: qloapps_pass
+    depends_on:
+      - db
+    restart: unless-stopped
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    environment:
+      PMA_HOST: db
+      PMA_USER: qloapps
+      PMA_PASSWORD: qloapps_pass
+    ports:
+      - "8081:80"
+    depends_on:
+      - db
+    restart: unless-stopped
+
+volumes:
+  qloapps_db:
