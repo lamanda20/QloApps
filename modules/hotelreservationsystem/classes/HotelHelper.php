@@ -1048,10 +1048,10 @@ class HotelHelper
         Configuration::updateValue('WK_HTL_ESTABLISHMENT_YEAR', 2010);
 
         Configuration::updateValue('PS_SHOP_ADDR1', 'The Hotel Prime, Monticello Dr, Montgomery, 10010');
-        Configuration::updateValue('PS_SHOP_PHONE', '0987654321');
+        Configuration::updateValue('PS_SHOP_PHONE', '0639621297');
         Configuration::updateValue('PS_SHOP_EMAIL', 'hotelprime@htl.com');
 
-        Configuration::updateValue('WK_CUSTOMER_SUPPORT_PHONE_NUMBER', '0987654321');
+        Configuration::updateValue('WK_CUSTOMER_SUPPORT_PHONE_NUMBER', '0639621297');
         Configuration::updateValue('WK_CUSTOMER_SUPPORT_EMAIL', 'hotelprime@htl.com');
         Configuration::updateValue('WK_DISPLAY_CONTACT_PAGE_HOTEL_LIST', 0);
 
@@ -1748,7 +1748,7 @@ class HotelHelper
         }
         $objAddress = new Address();
         $objAddress->id_hotel = $htl_id;
-        $objAddress->phone = '0987654321';
+        $objAddress->phone = '0639621297';
         $objAddress->city = 'Demo City';
         $objAddress->id_state = $state_id;
         $objAddress->id_country = $def_cont_id;

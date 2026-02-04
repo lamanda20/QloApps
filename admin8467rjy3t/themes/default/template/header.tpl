@@ -132,7 +132,7 @@
 						</li>
 					</ul>
 				{else}
-					<a id="header_shopname" href="{$default_tab_link|escape:'html':'UTF-8'}">{$shop_name}</a>
+					<a id="header_shopname" href="{$default_tab_link|escape:'html':'UTF-8'}">marochotels</a>
 				{/if}
 				<ul id="header_notifs_icon_wrapper">
 					{if {$show_new_orders} == 1}
